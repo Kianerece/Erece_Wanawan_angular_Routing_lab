@@ -1,6 +1,42 @@
-<nav>
-    <a routerLink="/home">Home</a>
-    <a routerLink="/about">About</a>
-    <a routerLink="/contact">Contact</a>
-  </nav>
-  <button (click)="goBack()">Back</button>
+<div class="container mt-5">
+  <!-- Welcome Message -->
+  <div class="text-center">
+    <h1>Welcome to Our Homepage</h1>
+    <p class="lead">We are glad to have you here!</p>
+  </div>
+
+  <!-- Creators Section -->
+  <div class="row text-center mt-4">
+    <div class="col-md-6">
+      <div class="card shadow-lg p-3 mb-4 bg-white rounded">
+        <div class="card-body">
+          <img src="https://lh3.googleusercontent.com/a/ACg8ocIkb2delp5F-1cDAWK8Zw0XCbW6T2lluRmIyR-0b-DqKxe8Dhw=s288-c-no" class="card-img-top rounded-circle mx-auto d-block" 
+          alt="Kian Relijoe B." style="width: 150px; height: 150px; object-fit: cover;">
+     
+          <h3 class="card-title">Erece, Kian Relijoe B.</h3>
+          <p class="card-text">Co-creator and developer of the project.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card shadow-lg p-3 mb-4 bg-white rounded">
+        <div class="card-body">
+          <img src="https://avatars.githubusercontent.com/u/98321433?v=4" class="card-img-top rounded-circle mx-auto d-block" 
+          alt="Kian Relijoe B." style="width: 150px; height: 150px; object-fit: cover;">
+          <h3 class="card-title">Jayzer Ray Wanawan</h3>
+          <p class="card-text">Co-creator and project designer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About the Website Activity -->
+  <div class="mt-5">
+    <h2>About This Website</h2>
+    <p>
+      This website is built as part of an activity to demonstrate **Angular routing, Bootstrap styling, and dynamic navigation**. 
+      It includes multiple pages such as **Home, About, and Contact**, ensuring smooth user experience and responsiveness.
+    </p>
+  </div>
+</div>
+
