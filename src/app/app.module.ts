@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { Child1Component } from './about/child-1/child-1.component';
+import { Child2Component } from './about/child-2/child-2.component';
 
 @NgModule({
   imports: [
@@ -14,7 +16,7 @@ import { ContactComponent } from './contact/contact.component';
     AppRoutingModule
   ],
   providers: [
-    importProvidersFrom(HomeComponent, AboutComponent, ContactComponent)
+    importProvidersFrom(HomeComponent, AboutComponent, ContactComponent, Child1Component, Child2Component)
   ]
 })
 export class AppModule { }
